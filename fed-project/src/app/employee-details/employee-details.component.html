@@ -1,0 +1,15 @@
+<div>
+    <h3>Employee Details</h3>
+    <div style="margin-left: 40px;">
+        <table *ngFor="let emp of employee">
+            <tbody>
+                <tr>ID:<td>{{ emp.id }}</td></tr>
+                <tr>Name:<td>{{ emp.name }}</td></tr>
+                <tr>Location:<td>{{ emp.location }}</td></tr>
+                <tr>Email:<td>{{ emp.email }}</td></tr>   
+                <tr>Mobile:<td>{{ emp.mobile }}</td></tr><br> 
+            </tbody>
+        </table>
+        <button class="btn btn-info"><a routerLink="/employee">Back</a></button>
+    </div>
+</div>

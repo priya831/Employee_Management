@@ -1,0 +1,17 @@
+.form-control{
+    width: 250px;
+    height: 30px;
+}
+table,th,td {
+    border : 1px solid black;
+    border-collapse: separate; 
+    border-spacing: 3px;
+}
+th,td{
+    text-align: center;
+    padding:5px;
+}
+.underline{
+    color: blue;
+    text-decoration-line: underline;
+}

@@ -1,0 +1,12 @@
+h1{
+    text-align: center; 
+    margin-top: 10px;
+    color: rgb(97, 97, 247);
+}
+h5{
+    cursor: pointer;
+}
+.fixed-header {
+    text-align: center; 
+    background-color: rgb(162, 162, 190);
+}
